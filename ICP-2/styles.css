@@ -1,0 +1,31 @@
+body{
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+#recordCss {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+#recordCss td, #recordCss th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#recordCss tr:nth-child(even){background-color: #f2f2f2;}
+
+#recordCss tr:hover {background-color: #ddd;}
+
+#recordCss th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+
+    color: black;
+}
