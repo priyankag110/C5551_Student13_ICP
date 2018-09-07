@@ -1,0 +1,37 @@
+body{
+    color: white;
+    background-image: url("nutrition.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-content: center;
+}
+
+
+#recordCss {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+
+}
+
+#recordCss td, #recordCss th {
+    color: darkslateblue;
+    border: 1px solid black;
+    padding: 16px;
+}
+
+#labelCss {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: x-large;
+
+}
+
+#recordCss tr:hover {background-color: #ddd;}
+
+#recordCss th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+
+    color: darkslateblue;
+}

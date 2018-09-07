@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Nutrition Details</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js" type="application/javascript"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron" style="color: white">
+        <h1 align="center">Nutrition Details</h1>
+        <h2 align="center">This webpage will display nutrition details</h2>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</div>
+     <div ng-app="myApp" ng-controller="nutritionctrl" align="center">
+
+    <label id="labelCss">Ingredient Name: </label>
+    <input id="labelCss" type="text" name="input" ng-model="example.ingrName" ng-pattern="example.word" required ng-trim="false">
+    <button id="labelCss" ng-click="getNutrition(example.ingrName)"> Show Nutrition Details </button>
+    <br/>
+    <br/>
+    <table id="recordCss" style="color: white">
+        <tr>
+            <th>Ingredient Name</th>
+            <th>Calories</th>
+            <th>Total Weight</th>
+        </tr>
+            <td> {{ itemName }} </td>
+
+            <td>
+                {{ calories }}
+            </td>
+            <td>
+                {{ weight }}
+            </td>
+    </table>
+
+    <div ng-show="ngShowhide">
+        <button id="btn1" ng-click="playNutritionDetails()">Play nutrition details</button>
+    </div>
+     </div>
+
+
+</body>
+</html>
