@@ -1,0 +1,7 @@
+#Thu Sep 13 11:19:17 CDT 2018
+base.0=C\:\\Users\\Shawn\\Downloads\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_27a4078fca94d241e3a53a0945ef69da213aebba
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Shawn\\Downloads\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2bd003378f9926944b80eb09dd474ec177988653\\classes.dex
+base.1=C\:\\Users\\Shawn\\Downloads\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2bd003378f9926944b80eb09dd474ec177988653
+file.0=C\:\\Users\\Shawn\\Downloads\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_27a4078fca94d241e3a53a0945ef69da213aebba\\classes.dex
